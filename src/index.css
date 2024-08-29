@@ -1,0 +1,60 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #0c5407;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #42fa34;
+}
+
+button {
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  color: #00eaa0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+
